@@ -21,49 +21,48 @@ predict_leaf.py	Módulo que encapsula a lógica de carregamento do modelo e real
 classes.json	Arquivo de configuração contendo a lista das classes (rótulos) que o modelo é capaz de prever.
 .gitignore	Especifica arquivos e pastas que devem ser ignorados pelo Git (como ambientes virtuais e modelos grandes).
 
-🚀 Como Executar o Projeto
+# 🚀 Como Executar o Projeto
 Siga os passos abaixo para configurar e executar o projeto localmente.
 
 Pré-requisitos
 Python 3.x
 Pip (gerenciador de pacotes)
 
-1. Clonar o Repositório
+# 1. Clonar o Repositório
 
 Bash
 git clone https://github.com/Pedrocasbar/tcc-.git
 cd tcc-
 
-2. Configurar o Ambiente
+# 2. Configurar o Ambiente
 É altamente recomendado o uso de um ambiente virtual:
 
 Bash
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
-# venv\Scripts\activate   # Windows
+venv\Scripts\activate   # Windows
 
-3. Instalar Dependências
+# 3. Instalar Dependências
 Crie um arquivo requirements.txt com as dependências do projeto e instale-as (assumindo que você as listará lá):
 
 Bash
-# Exemplo de conteúdo do requirements.txt:
-# tensorflow
-# flask
-# opencv-python
-# numpy
-# pandas
-# ...
+ Exemplo de conteúdo do requirements.txt:
+ tensorflow
+ flask
+ opencv-python
+ numpy
+ pandas
 
 Bash
 pip install -r requirements.txt
 
-4. Treinar o Modelo (Opcional)
+# 4. Treinar o Modelo (Opcional)
 Se você alterou o dataset ou deseja retreinar o modelo:
 
 Bash
 python train_model.py
 
-5. Executar a Aplicação
+# 5. Executar a Aplicação
 Inicie o servidor local através do app.py:
 
 Bash
